@@ -1,0 +1,97 @@
+.wrap {
+    width: 800px;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    background-color: rgba(145, 180, 199, 0.527);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: large;
+    width:500px;
+    margin: 25px auto;
+}
+
+label {
+    width: 100%;
+    margin: 15px auto;
+    text-transform: uppercase;
+}
+
+input {
+    width: 495px;
+    margin: 15px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: large;
+}
+
+input:focus {
+    outline: none;
+    border: 1px dotted;
+    background-color: #dedef0; 
+}
+
+.btn-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 45%;
+    margin: 40px auto 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: large;
+    text-transform: uppercase;
+    color: wheat;
+    background-color: rgb(50, 50, 180);
+    border-style: none;
+    border-radius: 10px;
+    line-height: 3ch;
+    transition: all 0.3s ease-in;
+}
+
+button:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(30, 30, 160);
+}
+
+button:nth-of-type(2) {
+    background-color: rgb(200, 0, 0);
+}
+
+button:nth-of-type(2):hover {
+    background-color: rgb(210, 0, 0);
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: large;
+  }
+  
+  .card {
+    width: 46%;
+    padding: 5px;
+    margin: 10px auto;
+  }
+
+  .card-image {
+      width: 100%;
+  }
